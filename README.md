@@ -16,14 +16,18 @@ To import your mod into Sonic Adventure 2, you will need to create a mod folder 
 
 For ideas, see the [SA2BModding Wiki](https://github.com/X-Hax/SA2BModdingGuide) for more information on what you can do with mods!
 
-## Notes
+## Dependencies
 Some of the libraries included will not automatically update themselves, so please check every so often for updates. You can find the two main dependency libraries here:
 - [Libmodutils](https://github.com/X-Hax/sa2-mod-loader/tree/master/libmodutils)
 - Programming Folder (Which can be found in your local Sonic Adventure 2 install, after installing the SA2ModLoader)
 
 Note that Libmodutils originally used the legacy 'stdafx.cpp' and 'stdafx.h' instead of the more recent 'pch.cpp' and 'pch.h.' If you update your libraries, please double check and fix the cpp files to ensure that they do include 'pch.h' instead of 'stdafx.h.'
 
-Also, the project name 'my-mod' is a placeholder. Feel free to rename it if you'd like, which should also change the dll that gets built.
+## Notes
+The project name 'my-mod' is a placeholder. Feel free to rename it if you'd like, which should also change the dll that gets built.
+
+For a faster workflow, I recommend leaving a shortcut to your mod folder in your 'release' folder. That way, when you build a new mod, you can simply drag and drop
+the new dll onto the shortcut, which will quickly update your mod. Shortcuts to your SA2 install folder can also be helpful for other modding purposes.
 
 If you need any help, feel free to ask questions at the official [X-Hax Discord](https://discord.gg/gqJCF47).
 
