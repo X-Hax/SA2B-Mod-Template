@@ -1,9 +1,15 @@
 ﻿  pch.cpp
+C:\Users\techn\Desktop\Sonic Adventure 2 Test Level\Sonic Adventure 2 Mod Template\my-mod\my-mod\pch.h(15,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  AnimationFile.cpp
   dllmain.cpp
+  GameObject.cpp
+  LandTableInfo.cpp
   main.cpp
+  ModelInfo.cpp
+  Trampoline.cpp
      Creating library C:\Users\techn\Desktop\Sonic Adventure 2 Test Level\Sonic Adventure 2 Mod Template\my-mod\Release\my-mod.lib and object C:\Users\techn\Desktop\Sonic Adventure 2 Test Level\Sonic Adventure 2 Mod Template\my-mod\Release\my-mod.exp
   Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Compiler switch has changed, fall back to full compilation.
+  All 139 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   my-mod.vcxproj -> C:\Users\techn\Desktop\Sonic Adventure 2 Test Level\Sonic Adventure 2 Mod Template\my-mod\Release\my-mod.dll

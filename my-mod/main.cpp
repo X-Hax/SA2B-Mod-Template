@@ -1,5 +1,4 @@
 #include "pch.h"
-// or #include "stdafx.h" for previous Visual Studio versions
 
 extern "C"
 {
